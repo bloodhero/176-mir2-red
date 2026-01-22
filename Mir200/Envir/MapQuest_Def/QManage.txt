@@ -1,0 +1,8 @@
+;RED交流群:317076826。技术支持QQ:76154079
+
+[@Login]
+#IF
+CHECKLEVELEX > 0
+#ACT
+#CALL [\三生制作\登陆脚本.txt] @登陆设置
+

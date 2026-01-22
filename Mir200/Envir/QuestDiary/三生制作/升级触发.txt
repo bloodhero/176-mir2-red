@@ -1,0 +1,259 @@
+{
+[@升级触发]
+#IF
+checkjob wizard
+CHECKLEVELEX = 7
+#ACT
+SENDMSG 7 提示：恭喜您升级到7级，可以学习火球术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 7
+#ACT
+SENDMSG 7 提示：恭喜您升级到7级，可以学习基本剑术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 7
+#ACT
+SENDMSG 7 提示：恭喜您升级到7级，可以学习治愈术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 9
+#ACT
+SENDMSG 7 提示：恭喜您升级到9级，可以学习精神力战法技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 12
+#ACT
+SENDMSG 7 提示：恭喜您升级到12级，可以学习抗拒火环技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 13
+#ACT
+SENDMSG 7 提示：恭喜您升级到13级，可以学习诱惑之光技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 14
+#ACT
+SENDMSG 7 提示：恭喜您升级到14级，可以学习施毒术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 16
+#ACT
+SENDMSG 7 提示：恭喜您升级到16级，可以学习地狱火技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 17
+#ACT
+SENDMSG 7 提示：恭喜您升级到17级，可以学习雷电术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 18
+#ACT
+SENDMSG 7 提示：恭喜您升级到18级，可以学习灵魂火符技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习瞬息移动技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习攻杀剑术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习召唤骷髅技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习大火球技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 20
+#ACT
+SENDMSG 7 提示：恭喜您升级到20级，可以学习隐身术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 21
+#ACT
+SENDMSG 7 提示：恭喜您升级到21级，可以学习集体隐身术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 22
+#ACT
+SENDMSG 7 提示：恭喜您升级到22级，可以学习爆裂火焰技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 22
+#ACT
+SENDMSG 7 提示：恭喜您升级到22级，可以学习幽灵盾技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 24
+#ACT
+SENDMSG 7 提示：恭喜您升级到24级，可以学习火墙技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 25
+#ACT
+SENDMSG 7 提示：恭喜您升级到25级，可以学习神圣战甲术技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 25
+#ACT
+SENDMSG 7 提示：恭喜您升级到25级，可以学习刺杀剑术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 26
+#ACT
+SENDMSG 7 提示：恭喜您升级到26级，可以学习疾光电影技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 26
+#ACT
+SENDMSG 7 提示：恭喜您升级到26级，可以学习心灵启示技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 28
+#ACT
+SENDMSG 7 提示：恭喜您升级到28级，可以学习困魔咒技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 28
+#ACT
+SENDMSG 7 提示：恭喜您升级到28级，可以学习半月弯刀技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 30
+#ACT
+SENDMSG 7 提示：恭喜您升级到30级，可以学习野蛮冲撞技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 30
+#ACT
+SENDMSG 7 提示：恭喜您升级到30级，可以学习地狱雷光技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 31
+#ACT
+SENDMSG 7 提示：恭喜您升级到31级，可以学习魔法盾技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 32
+#ACT
+SENDMSG 7 提示：恭喜您升级到32级，可以学习圣言术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 33
+#ACT
+SENDMSG 7 提示：恭喜您升级到33级，可以学习群体治疗术技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习烈火剑法技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习冰咆哮技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习召唤神兽技能！
+break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

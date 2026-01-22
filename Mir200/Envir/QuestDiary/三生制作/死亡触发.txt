@@ -1,0 +1,20 @@
+{
+[@死亡触发]
+#IF
+ISDUMMY
+#ACT
+GMEXECUTE 复活 Self
+MAP 0
+break
+#ELSEACT
+#IF
+KILLBYHUM
+#ACT
+SENDMSG 1 提示:玩家【<$CURRRTARGETNAME>】在:%m(%x:%y)把玩家<$USERNAME>干掉了！
+#ELSEACT
+SENDMSG 1 提示:怪物【<$CURRRTARGETNAME>】在:%m(%x:%y)把玩家<$USERNAME>干掉了！
+
+
+
+
+}
