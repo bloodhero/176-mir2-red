@@ -6,3 +6,13 @@ CHECKLEVELEX > 0
 #ACT
 #CALL [\三生制作\登陆脚本.txt] @登陆设置
 
+#IF
+#ACT
+AUTOPICKUPITEM C:\Users\juhailu\Documents\176-mir2-red\Mir200\Envir\QuestDiary\数据文件\允许捡取物品文本.txt  10  0  1
+SENDMSG 6 〖提示〗当前已开启自动捡取功能!
+
+SETSNDACASKET 1
+SENDMSG 6 〖提示〗当前已开启首饰盒功能!
+
+SHOWGODBLESS 1
+sendmsg 6 〖提示〗当前已开启神佑盒!
