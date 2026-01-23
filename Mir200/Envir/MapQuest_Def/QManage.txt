@@ -45,3 +45,12 @@ SENDMSG 6 〖提示〗当前已开启首饰盒功能!
 
 SHOWGODBLESS 1
 sendmsg 6 〖提示〗当前已开启神佑盒!
+
+;开启自动回收
+
+SetOnTimer 10 180
+[@OnTimer10]
+#if
+CHECKVAR HUMAN 自动回收设置 > 0
+#act
+#CALL [XH_回收中心\Npc核心脚本.txt] @一键回收
