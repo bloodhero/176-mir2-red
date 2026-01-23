@@ -1,6 +1,35 @@
 ;RED交流群:317076826。技术支持QQ:76154079
 
 [@Login]
+
+#If
+#Act
+VAR Integer HUMAN 20级系列装备
+LoadVAR HUMAN 20级系列装备 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 沃玛系列首饰
+LoadVAR HUMAN 沃玛系列首饰 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 沃玛系列剑甲
+LoadVAR HUMAN 沃玛系列剑甲 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 祖玛系列首饰
+LoadVAR HUMAN 祖玛系列首饰 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 祖玛系列剑甲
+LoadVAR HUMAN 祖玛系列剑甲 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 赤月系列首饰
+LoadVAR HUMAN 赤月系列首饰 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 赤月系列剑甲
+LoadVAR HUMAN 赤月系列剑甲 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 各种套装系列
+LoadVAR HUMAN 各种套装系列 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 特殊戒指系列
+LoadVAR HUMAN 特殊戒指系列 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 终极装备系列
+LoadVAR HUMAN 终极装备系列 ..\QuestDiary\XH_回收中心\回收配置.txt
+VAR Integer HUMAN 自动回收设置
+LoadVAR HUMAN 自动回收设置 ..\QuestDiary\XH_回收中心\回收配置.txt
+
+DELAYGOTO 1 @MAIN
+
+[@MAIN]
 #IF
 CHECKLEVELEX > 0
 #ACT
@@ -8,7 +37,7 @@ CHECKLEVELEX > 0
 
 #IF
 #ACT
-AUTOPICKUPITEM C:\Users\juhailu\Documents\176-mir2-red\Mir200\Envir\QuestDiary\数据文件\允许捡取物品文本.txt  10  0  1
+AUTOPICKUPITEM ..\QuestDiary\数据文件\允许捡取物品文本.txt  10  0  1
 SENDMSG 6 〖提示〗当前已开启自动捡取功能!
 
 SETSNDACASKET 1

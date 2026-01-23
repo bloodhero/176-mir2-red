@@ -6,6 +6,14 @@
 
 [@PlayDie]
 #CALL [\三生制作\死亡触发.txt] @死亡触发
+
+[@PickUpItemEx]
+#if
+CHECKVAR HUMAN 自动回收设置 > 0
+CHECKBAGSIZE  1
+#act
+#CALL [XH_回收中心\Npc核心脚本.txt] @一键回收
+
 ;------------------------双击触发----------------------------
 [@STDMODEFUNC9]
 #IF

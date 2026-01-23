@@ -1,0 +1,379 @@
+[@XH_HSJB]
+{
+#If
+CheckVAR HUMAN 20级系列装备 > 0
+#Act
+Mov S$20级系列装备 <Img:6:491:35:42:0/@设置20级系列装备>
+#ElseAct
+Mov S$20级系列装备 <Img:6:490:35:42:0/@设置20级系列装备>
+#If
+CheckVAR HUMAN 沃玛系列首饰 > 0
+#Act
+Mov S$沃玛系列首饰 <Img:6:491:192:42:0/@设置沃玛系列首饰>
+#ElseAct
+Mov S$沃玛系列首饰 <Img:6:490:192:42:0/@设置沃玛系列首饰>
+#If
+CheckVAR HUMAN 沃玛系列剑甲 > 0
+#Act
+Mov S$沃玛系列剑甲 <Img:6:491:35:62:0/@设置沃玛系列剑甲>
+#ElseAct
+Mov S$沃玛系列剑甲 <Img:6:490:35:62:0/@设置沃玛系列剑甲>
+#If
+CheckVAR HUMAN 祖玛系列首饰 > 0
+#Act
+Mov S$祖玛系列首饰 <Img:6:491:192:62:0/@设置祖玛系列首饰>
+#ElseAct
+Mov S$祖玛系列首饰 <Img:6:490:192:62:0/@设置祖玛系列首饰>
+#If
+CheckVAR HUMAN 祖玛系列剑甲 > 0
+#Act
+Mov S$祖玛系列剑甲 <Img:6:491:35:82:0/@设置祖玛系列剑甲>
+#ElseAct
+Mov S$祖玛系列剑甲 <Img:6:490:35:82:0/@设置祖玛系列剑甲>
+#If
+CheckVAR HUMAN 赤月系列首饰 > 0
+#Act
+Mov S$赤月系列首饰 <Img:6:491:192:82:0/@设置赤月系列首饰>
+#ElseAct
+Mov S$赤月系列首饰 <Img:6:490:192:82:0/@设置赤月系列首饰>
+#If
+CheckVAR HUMAN 赤月系列剑甲 > 0
+#Act
+Mov S$赤月系列剑甲 <Img:6:491:35:102:0/@设置赤月系列剑甲>
+#ElseAct
+Mov S$赤月系列剑甲 <Img:6:490:35:102:0/@设置赤月系列剑甲>
+#If
+CheckVAR HUMAN 各种套装系列 > 0
+#Act
+Mov S$各种套装系列 <Img:6:491:192:102:0/@设置各种套装系列>
+#ElseAct
+Mov S$各种套装系列 <Img:6:490:192:102:0/@设置各种套装系列>
+#If
+CheckVAR HUMAN 特殊戒指系列 > 0
+#Act
+Mov S$特殊戒指系列 <Img:6:491:35:122:0/@设置特殊戒指系列>
+#ElseAct
+Mov S$特殊戒指系列 <Img:6:490:35:122:0/@设置特殊戒指系列>
+#If
+CheckVAR HUMAN 终极装备系列 > 0
+#Act
+Mov S$终极装备系列 <Img:6:491:192:122:0/@设置终极装备系列>
+#ElseAct
+Mov S$终极装备系列 <Img:6:490:192:122:0/@设置终极装备系列>
+#If
+CheckVAR HUMAN 自动回收设置 > 0
+#Act
+Mov S$自动回收 <Img:6:491:262:162:0/@自动回收>
+#ElseAct
+Mov S$自动回收 <Img:6:490:262:162:0/@自动回收>
+#If
+#Say
+<$Str(S$20级系列装备)>
+<$Str(S$沃玛系列首饰)>
+<$Str(S$沃玛系列剑甲)>
+<$Str(S$祖玛系列首饰)>
+<$Str(S$祖玛系列剑甲)>
+<$Str(S$赤月系列首饰)>
+<$Str(S$赤月系列剑甲)>
+<$Str(S$各种套装系列)>
+<$Str(S$特殊戒指系列)>
+<$Str(S$终极装备系列)>
+<$Str(S$自动回收)>
+请选择要回收的装备：\
+　　<20级系列装备/@设置20级系列装备>　　　　　<沃玛系列首饰/@设置沃玛系列首饰>\
+　　<沃玛系列剑甲/@设置沃玛系列剑甲>　　　　　<祖玛系列首饰/@设置祖玛系列首饰>\
+　　<祖玛系列剑甲/@设置祖玛系列剑甲>　　　　　<赤月系列首饰/@设置赤月系列首饰>\
+　　<赤月系列剑甲/@设置赤月系列剑甲>　　　　　<各种套装系列/@设置各种套装系列>\
+　　<特殊戒指系列/@设置特殊戒指系列>　　　　　<终极装备系列/@设置终极装备系列>\ \
+　<一键回收/@一键回收>　　<全选/@全选>　　<取消全选/@取消>　　　<自动回收/@自动回收>\
+[@一键回收]
+#if
+CheckVAR HUMAN 20级系列装备 > 0
+#Act
+TakeBagItem 木剑|匕首|青铜剑|乌木剑|铁剑|短剑|鹤嘴锄|青铜斧|八荒|半月|海魂|罗刹|凌风|破魂|斩马刀|偃月|降魔|修罗|凝霜|炼狱|魔杖|银蛇|命运之刃|布衣(男)|布衣(女)|轻型盔甲(男)|轻型盔甲(女)|中型盔甲(男)|中型盔甲(女)|青铜头盔|骷髅头盔|魔法头盔|道士头盔|祈福项链|金项链|传统项链|白金项链|白色虎齿项链|躲避手链|黑檀项链|黄色水晶项链|黑色水晶项链|魔鬼项链|琥珀项链|凤凰明珠|灯笼项链|蓝翡翠项链|竹笛|放大镜|铁手镯|小手镯|银手镯|皮制手套|钢手镯|大手镯|夏普儿手镯|坚固手套|魔法手镯|道士手镯|黑檀手镯|避邪手镯|魔力手镯|死神手套|金手镯|古铜戒指|六角戒指|玻璃戒指|牛角戒指|生铁戒指|火焰戒指|防御戒指|蓝色水晶戒指|黑色水晶戒指|蛇眼戒指|珍珠戒指|金戒指|魅力戒指|道德戒指|降妖除魔戒指|珊瑚戒指|骷髅戒指|精灵头盔|神秘头盔|神秘戒指|神秘腰带|黑铁头盔|阎罗手套| 46 0 2000 0 0 N$数量 0 1
+Mov N$金币 2000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 20级系列装备 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【20级系列装备】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 沃玛系列首饰 > 0
+#Act
+TakeBagItem 幽灵项链|幽灵手套|龙之戒指|生命项链|思贝儿手镯|红宝石戒指|天珠项链|心灵手镯|铂金戒指| 46 0 5000 0 0 N$数量 0 0
+Mov N$金币 5000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 沃玛系列首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛系列首饰】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 沃玛系列剑甲 > 0
+#Act
+TakeBagItem 井中月|无极棍|血饮|重盔甲(男)|重盔甲(女)|魔法长袍(男)|魔法长袍(女)|灵魂战衣(男)|灵魂战衣(女)| 46 0 15000 0 0 N$数量 0 0
+Mov N$金币 15000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 沃玛系列剑甲 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 祖玛系列首饰 > 0
+#Act
+TakeBagItem 绿色项链|骑士手镯|力量戒指|恶魔铃铛|龙之手镯|紫碧螺|灵魂项链|三眼手镯|泰坦戒指| 46 0 20000 0 0 N$数量 0 0
+Mov N$金币 20000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 祖玛系列首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛系列首饰】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 祖玛系列剑甲 > 0
+#Act
+TakeBagItem 裁决之杖|骨玉权杖|龙纹剑|战神盔甲(男)|战神盔甲(女)|恶魔长袍(女)|恶魔长袍(男)|幽灵战衣(女)|幽灵战衣(男)| 46 0 30000 0 0 N$数量 0 0
+Mov N$金币 30000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 祖玛系列剑甲 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 赤月系列首饰 > 0
+#Act
+TakeBagItem 天尊戒指|天尊手镯|天尊项链|天尊头盔|法神戒指|法神手镯|法神项链|法神头盔|圣战戒指|圣战手镯|圣战项链|圣战头盔| 46 0 50000 0 0 N$数量 0 0
+Mov N$金币 50000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 赤月系列首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月系列首饰】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 赤月系列剑甲 > 0
+#Act
+TakeBagItem 龙牙|怒斩|逍遥扇|天魔神甲|圣战宝甲|法神披风|霓裳羽衣|天尊道袍|天师长袍| 46 0 150000 0 0 N$数量 0 0
+Mov N$金币 150000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 赤月系列剑甲 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 各种套装系列 > 0
+#Act
+TakeBagItem 祈祷之刃|祈祷头盔|祈祷项链|祈祷手镯|祈祷戒指|狂风戒指|狂风项链|记忆头盔|记忆项链|记忆手镯|记忆戒指|魔血项链|魔血手镯|魔血戒指|虹魔项链|虹魔手镯|虹魔戒指| 46 0 30000 0 0 N$数量 0 0
+Mov N$金币 30000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 各种套装系列 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【各种套装系列】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 特殊戒指系列 > 0
+#Act
+TakeBagItem 探测项链|技巧项链|求婚戒指|隐身戒指|传送戒指|麻痹戒指|复活戒指|护身戒指|超负载戒指| 46 0 300000 0 0 N$数量 0 0
+Mov N$金币 300000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 特殊戒指系列 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【特殊戒指系列】完成,获得:<$Str(N$金币)>+金币！
+#if
+CheckVAR HUMAN 终极装备系列 > 0
+#Act
+TakeBagItem 屠龙|嗜魂法杖|霸者之刃| 46 0 300000 0 0 N$数量 0 0
+Mov N$金币 300000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 终极装备系列 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【终极装备系列】完成,获得:<$Str(N$金币)>+金币！
+[@设置20级系列装备]
+#If
+CheckVAR HUMAN 20级系列装备 = 0
+#Act
+CalcVAR HUMAN 20级系列装备 + 1
+SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 20级系列装备 = 0
+SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置沃玛系列首饰]
+#If
+CheckVAR HUMAN 沃玛系列首饰 = 0
+#Act
+CalcVAR HUMAN 沃玛系列首饰 + 1
+SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 沃玛系列首饰 = 0
+SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置沃玛系列剑甲]
+#If
+CheckVAR HUMAN 沃玛系列剑甲 = 0
+#Act
+CalcVAR HUMAN 沃玛系列剑甲 + 1
+SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 沃玛系列剑甲 = 0
+SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置祖玛系列首饰]
+#If
+CheckVAR HUMAN 祖玛系列首饰 = 0
+#Act
+CalcVAR HUMAN 祖玛系列首饰 + 1
+SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 祖玛系列首饰 = 0
+SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置祖玛系列剑甲]
+#If
+CheckVAR HUMAN 祖玛系列剑甲 = 0
+#Act
+CalcVAR HUMAN 祖玛系列剑甲 + 1
+SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 祖玛系列剑甲 = 0
+SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置赤月系列首饰]
+#If
+CheckVAR HUMAN 赤月系列首饰 = 0
+#Act
+CalcVAR HUMAN 赤月系列首饰 + 1
+SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 赤月系列首饰 = 0
+SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置赤月系列剑甲]
+#If
+CheckVAR HUMAN 赤月系列剑甲 = 0
+#Act
+CalcVAR HUMAN 赤月系列剑甲 + 1
+SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 赤月系列剑甲 = 0
+SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置各种套装系列]
+#If
+CheckVAR HUMAN 各种套装系列 = 0
+#Act
+CalcVAR HUMAN 各种套装系列 + 1
+SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 各种套装系列 = 0
+SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置特殊戒指系列]
+#If
+CheckVAR HUMAN 特殊戒指系列 = 0
+#Act
+CalcVAR HUMAN 特殊戒指系列 + 1
+SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 特殊戒指系列 = 0
+SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置终极装备系列]
+#If
+CheckVAR HUMAN 终极装备系列 = 0
+#Act
+CalcVAR HUMAN 终极装备系列 + 1
+SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 终极装备系列 = 0
+SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@全选]
+#If
+#Act
+CalcVAR HUMAN 20级系列装备 = 1
+SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛系列首饰 = 1
+SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛系列剑甲 = 1
+SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛系列首饰 = 1
+SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛系列剑甲 = 1
+SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月系列首饰 = 1
+SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月系列剑甲 = 1
+SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 各种套装系列 = 1
+SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指系列 = 1
+SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备系列 = 1
+SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+[@取消]
+#If
+#Act
+CalcVAR HUMAN 20级系列装备 = 0
+SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛系列首饰 = 0
+SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛系列剑甲 = 0
+SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛系列首饰 = 0
+SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛系列剑甲 = 0
+SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月系列首饰 = 0
+SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月系列剑甲 = 0
+SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 各种套装系列 = 0
+SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指系列 = 0
+SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备系列 = 0
+SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+[@自动回收]
+#If
+CheckVAR HUMAN 自动回收设置 = 0
+#Act
+CalcVAR HUMAN 自动回收设置 + 1
+SaveVAR HUMAN 自动回收设置  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 自动回收设置 = 0
+SaveVAR HUMAN 自动回收设置  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+}
