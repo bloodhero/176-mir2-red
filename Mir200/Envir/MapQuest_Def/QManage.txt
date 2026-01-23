@@ -37,7 +37,7 @@ CHECKLEVELEX > 0
 
 #IF
 #ACT
-AUTOPICKUPITEM ..\QuestDiary\数据文件\允许捡取物品文本.txt  10  0  1
+AUTOPICKUPITEM ..\QuestDiary\数据文件\允许捡取物品文本.txt  10  1  1
 SENDMSG 6 〖提示〗当前已开启自动捡取功能!
 
 SETSNDACASKET 1
