@@ -47,8 +47,20 @@ SHOWGODBLESS 1
 sendmsg 6 〖提示〗当前已开启神佑盒!
 
 ;开启自动回收
-
 SetOnTimer 10 180
+
+;添加按钮
+;装备回收
+ADDBUTTON  6  1  772  773  774  0  0  0
+;会员服务
+ADDBUTTON  6  2  760  761  762  0  0  0
+;游戏助理
+ADDBUTTON  6  3  769  770  771  0  0  0
+;每日奖励
+ADDBUTTON  6  4  763  764  765  0  0  0
+;新手攻略
+ADDBUTTON  6  5  766  767  768  0  0  0
+
 [@OnTimer10]
 #if
 CHECKVAR HUMAN 自动回收设置 > 0

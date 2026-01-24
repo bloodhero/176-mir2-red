@@ -1,0 +1,10 @@
+[@每日奖励]
+{
+#IF
+EQUAL I70 0
+#ACT
+MOV I70 1
+#CALL [功能文件\锦囊问题.txt] @锦囊问题
+#ELSEACT
+SENDMSG 5 您今天已领取过每日奖励，不能再使用了。 
+}
