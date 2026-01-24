@@ -1,2 +1,0 @@
-[@main]
-#Call [XH_回收中心\Npc核心脚本.txt]  @XH_HSJB
