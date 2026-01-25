@@ -1,10 +1,11 @@
 [@每日奖励]
 {
 #IF
-EQUAL I70 0
+NOT EQUAL U70 $DAY
 #ACT
-MOV I70 1
+MOV U70 $DAY
 #CALL [功能文件\锦囊问题.txt] @锦囊问题
-#ELSEACT
-SENDMSG 5 您今天已领取过每日奖励，不能再使用了。 
+#ELSESAY
+您今天已领取过每日奖励，不能再使用了。\ \
+<退出/@exit>
 }

@@ -650,52 +650,51 @@ break
 #IF
 CheckLevelEx < 8
 #ACT
-ChangeExp + 50 1 1
-SENDMSG 7 恭喜：你获得了：经验:50
+ChangeExp + 50000 1 1
+SENDMSG 7 恭喜：你获得了：经验:50000
 break
 #say
-你获得了 经验:50 的奖励。
+你获得了 经验:50000 的奖励。
 #IF
 CheckLevelEx < 15
 #ACT
-ChangeExp + 150 1 1
-SENDMSG 7 恭喜：你获得了：经验:150
+ChangeExp + 150000 1 1
+SENDMSG 7 恭喜：你获得了：经验:150000
 break
 #say
-你获得了 经验:150 的奖励。
+你获得了 经验:150000 的奖励。
 #IF
 CheckLevelEx < 29
 #ACT
-ChangeExp + 360 1 1
-SENDMSG 7 恭喜：你获得了：经验:360
+ChangeExp + 360000 1 1
+SENDMSG 7 恭喜：你获得了：经验:360000
 break
 #say
-你获得了 经验:360 的奖励。
+你获得了 经验:360000 的奖励。
 #IF
 CheckLevelEx < 40
 #ACT
-ChangeExp + 800 1 1
-SENDMSG 7 恭喜：你获得了：经验:800
+ChangeExp + 800000 1 1
+SENDMSG 7 恭喜：你获得了：经验:800000
 break
 #say
-你获得了 经验:800 的奖励。
+你获得了 经验:800000 的奖励。
 #IF
 CheckLevelEx < 50
 #ACT
-ChangeExp + 1500 1 1
-SENDMSG 7 恭喜：你获得了：经验:1500
+ChangeExp + 1500000 1 1
+SENDMSG 7 恭喜：你获得了：经验:1500000
 break
 #say
-你获得了 经验:1500 的奖励。
+你获得了 经验:1500000 的奖励。
 #IF
 CheckLevelEx > 49
 #ACT
-ChangeExp + 2300 1 1
-SENDMSG 7 恭喜：你获得了：经验:2300
+ChangeExp + 2300000 1 1
+SENDMSG 7 恭喜：你获得了：经验:2300000
 break
 #say
-你获得了 经验:2300 的奖励。
-
+你获得了 经验:2300000 的奖励。
 [@错误74]
 对不起，你回答错误\ \
 正确答案是：炼金师
