@@ -20,83 +20,123 @@
 [@Mbind]
 #IF
 #SAY
-你知道我是什么人吗？ \ 
-我做的是这样的事情... \ 
+你知道我是什么人吗？我做的是这样的事情... \ 
 你要试一下吗？有什么要拜托的就说吧 \ \
-\\
-用金币<交换/@changeGold>金条 \
-用金条<交换/@changeMoney>金币 \
-<捆/@bind> \ \
+\
+用金币<交换/@Money2Gold>金条　　　　　用金条<交换/@Gold2Money>金币　　　　　用金条<交换/@Gold2Nugget>金砖\
+用金币<交换/@Money2Nugget>金砖　　　　　用金砖<交换/@Nugget2Money>金币　　　　　用金条<交换/@Gold2Box>金盒\
+用金币<交换/@Money2Box>金盒　　　　　用金盒<交换/@Box2Money>金币　　　　　用金砖<交换/@Nugget2Gold>金条\
+<捆扎/@bind>卷书和药品　　　　　　　　　　　　　　　　　用金盒<交换/@Box2Gold>金条\ \
 \\
 <离 开/@exit>
 
-[@changeGold]
+[@Money2Gold]
 #IF
-   checkgold 1002000
-#SAY
-你说你要用金币换成金条? \
-好的，我帮你换 \
-但是要支付手续费 \
-费用是2000金币，你还换吗？ \ \
-<交换/@changeGold_1> \
-<离 开/@exit>
-#ELSESAY
-你连这点钱都没有，还换什么？ \
-等你有足够的钱，再来找我吧 \ \
-<返 回/@Main>
-[@changeGold_1]
-#IF 
 CHECKBAGSIZE 1
 checkgold 1002000
 #ACT
 take 金币 1002000
 give 金条 1
-goto @仓库
-#SAY
-金币已经换好金条了. \ 
-还换吗？ \ \
-<交换/@changeGold> \
-<离 开/@exit>
-#ELSESAY
-你的包里东西已经满了，或者你没有足够的钱支付手续费\
-你再确认一下吧 \ \
-<离 开/@exit>
-[@changeMoney]
-#IF
-checkitem 金条 1
-#SAY 
-你要把金条换成金币? \
-好的，我给你换 \
-不过需要支付手续费\
-费用是2000金币，你还换吗？ \ \
-<交换/@changeMoney_1> \
-<离 开/@exit>
-#ELSESAY
-你都没有金条还换什么? \
-想骗我?快滚! \ \
-<离 开/@exit>
-[@changeMoney_1]
-#IF
-checkitem 金条 1
-checkgold 14000001
-#SAY
-我也很想给你换， \
-但是你钱太多了，我没办法给你换. \ \
-<离 开/@exit>
+SENDMSG 6 金币已经换好金条了. 
 #ELSEACT
-goto @changeMoney_2
-[@changeMoney_2]
-#IF 
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@Gold2Money]
+#IF
+checkitem 金条 1
+checkgold 1400000000
+#ACT
+sendmsg 6 你钱太多了，我没办法给你换. 
+break
+#IF
 checkitem 金条 1
 #ACT
 take 金条 1
 give 金币 998000
-goto @仓库
-#SAY
-金条已经换好金币了. \ 
-还换吗？ \ \
-<交换/@changeMoney> \
-<离 开/@exit>
+sendmsg 6 金条已经换好金币了. 
+[@Money2Nugget]
+#IF
+CHECKBAGSIZE 1
+checkgold 5002000
+#ACT
+take 金币 5002000
+give 金砖 1
+SENDMSG 6 金币已经换好金砖了.
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@Nugget2Money]
+#IF
+checkitem 金砖 1
+checkgold 1400000000
+#ACT
+sendmsg 6 你钱太多了，我没办法给你换. 
+break
+#IF
+checkitem 金砖 1
+#ACT
+take 金砖 1
+give 金币 4998000
+sendmsg 6 金砖已经换好金币了. 
+[@Money2Box]
+#IF
+CHECKBAGSIZE 1
+checkgold 10002000
+#ACT
+take 金币 10002000
+give 金盒 1
+SENDMSG 6 金币已经换好金盒了.
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@Box2Money]
+#IF
+checkitem 金盒 1
+checkgold 1400000000
+#ACT
+sendmsg 6 你钱太多了，我没办法给你换. 
+break
+#IF
+checkitem 金盒 1
+#ACT
+take 金盒 1
+give 金币 9998000
+sendmsg 6 金盒已经换好金币了. 
+[@Nugget2Gold]
+#IF
+CHECKBAGSIZE 5
+checkitem 金砖 1
+#ACT
+take 金砖 1
+give 金条 5
+SENDMSG 6 金砖已经换好金条了.
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有金砖
+[@Box2Gold]
+#IF
+CHECKBAGSIZE 10
+checkitem 金盒 1
+#ACT
+take 金盒 1
+give 金条 10
+SENDMSG 6 金盒已经换好金条了.
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有金盒
+[@Gold2Box]
+#IF
+checkitem 金条 10
+#ACT
+take 金条 10
+give 金盒 1
+SENDMSG 6 金条已经换好金盒了.
+#ELSEACT
+SENDMSG 6 你没有足够的金条.
+[@Gold2Nugget]
+#IF
+checkitem 金条 5
+#ACT
+take 金条 5
+give 金砖 1
+SENDMSG 6 金条已经换好金砖了.
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有金条
 [@bind]
 目前我能捆的只有卷书和药水 \
 你要捆吗？ \ 
