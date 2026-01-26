@@ -3,6 +3,7 @@
 请问你需要点什么吗？\ \
  <买/@buy> 药品\
  <卖/@sell> 药品\
+ <负重买药/@负重>\
  <离 开/@exit>
 
 [@buy]
@@ -13,6 +14,136 @@
 让我看看你要卖什么东西.\ \ \
  <返 回/@Main>
 
+[@负重]
+要我帮你负重没问题，但是价格方便要比商店的价格高一点，\
+当然我只做一捆捆的交易，要单瓶的免谈：\
+<10个金创药(中量) /@中量红10>  <50个金创药(中量) /@中量红50>  <10个太阳水/@太阳水10>\
+<10个魔法药(中量) /@中量蓝10>  <50个魔法药(中量) /@中量蓝50>  <50个太阳水/@太阳水50>\
+<10个金创药(强效) /@强效红10>  <50个金创药(强效) /@强效红50>  <10个强效太阳水/@强效太阳水10>\
+<10个魔法药(强效) /@强效蓝10>  <50个魔法药(强效) /@强效蓝50>  <50个强效太阳水/@强效太阳水50>\
+为什么没有疗伤药，万年雪霜，你秀逗了？\
+原版有人帮忙负这些的吗？\
+<返 回/@Main>
+[@中量红10]
+#IF
+CHECKBAGSIZE 1
+checkgold 5000
+#ACT
+take 金币 5000
+give 金创药(中量) 10
+SENDMSG 6 你买了10个金创药(中量)。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有5000金币
+[@中量蓝10]
+#IF
+CHECKBAGSIZE 1
+checkgold 5000
+#ACT
+take 金币 5000
+give 魔法药(中量) 10
+SENDMSG 6 你买了10个魔法药(中量)。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有5000金币
+[@中量红50]
+#IF
+CHECKBAGSIZE 1
+checkgold 25000
+#ACT
+take 金币 25000
+give 金创药(中量) 50
+SENDMSG 6 你买了50个金创药(中量)。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有25000金币
+[@中量蓝50]
+#IF
+CHECKBAGSIZE 1
+checkgold 25000
+#ACT
+take 金币 25000
+give 魔法药(中量) 50
+SENDMSG 6 你买了50个魔法药(中量)。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有25000金币
+[@强效红10]
+#IF
+CHECKBAGSIZE 1
+checkgold 8000
+#ACT
+take 金币 8000
+give 强效金创药 10
+SENDMSG 6 你买了10个强效金创药。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有8000金币
+[@强效蓝10]
+#IF
+CHECKBAGSIZE 1
+checkgold 8000
+#ACT
+take 金币 8000
+give 强效魔法药 10
+SENDMSG 6 你买了10个强效魔法药。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有8000金币
+[@强效红50]
+#IF
+CHECKBAGSIZE 1
+checkgold 40000
+#ACT
+take 金币 40000
+give 强效金创药 50
+SENDMSG 6 你买了50个强效金创药。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有40000金币
+[@强效蓝50]
+#IF
+CHECKBAGSIZE 1
+checkgold 40000
+#ACT
+take 金币 40000
+give 强效魔法药 50
+SENDMSG 6 你买了50个强效魔法药。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有40000金币
+[@太阳水10]
+#IF
+CHECKBAGSIZE 1
+checkgold 15000
+#ACT
+take 金币 15000
+give 太阳水 10
+SENDMSG 6 你买了10个太阳水。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有15000金币
+[@太阳水50]
+#IF
+CHECKBAGSIZE 1
+checkgold 75000
+#ACT
+take 金币 75000
+give 太阳水 50
+SENDMSG 6 你买了50个太阳水。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有75000金币
+[@强效太阳水10]
+#IF
+CHECKBAGSIZE 1
+checkgold 25000
+#ACT
+take 金币 25000
+give 强效太阳水 10
+SENDMSG 6 你买了10个强效太阳水。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有25000金币
+[@强效太阳水50]
+#IF
+CHECKBAGSIZE 1
+checkgold 125000
+#ACT
+take 金币 125000
+give 强效太阳水 50
+SENDMSG 6 你买了50个强效太阳水。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有125000金币
 [goods]
 金创药(小量)          100       3
 魔法药(小量)          100       3
