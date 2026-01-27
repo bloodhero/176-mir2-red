@@ -50,10 +50,10 @@ checknamelist ..\QuestDiary\数据文件\会员帐号.txt
 
 [@会员工资]
 #IF
-	EQUAL J80 0
+	NOT EQUAL U80 $DAY
 	CHECKBAGSIZE 1
 #act
-	MOV J80 1
+	MOV U80 $DAY
 	GIVE 金条 1
 	SENDMSG 6 恭喜您领取会员工资，获得金条一根
 #ELSEACT
