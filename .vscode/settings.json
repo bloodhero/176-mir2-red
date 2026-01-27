@@ -1,3 +1,4 @@
 {
-    "files.autoGuessEncoding": true
+    "files.autoGuessEncoding": false,
+    "files.encoding": "gb18030"
 }
