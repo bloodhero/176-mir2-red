@@ -1,0 +1,416 @@
+[@生肖合成]
+{
+<IMG:2:4539:33:16:0/@普通01>
+<IMG:2:4540:113:16:0/@普通02>
+<IMG:2:4541:193:16:0/@普通03>
+<IMG:2:4542:273:16:0/@普通04>
+<IMG:2:4543:353:16:0/@普通05>
+<IMG:2:4544:433:16:0/@普通06>
+<IMG:2:4545:33:57:0/@普通07>
+<IMG:2:4546:113:57:0/@普通08>
+<IMG:2:4547:193:57:0/@普通09>
+<IMG:2:4548:273:57:0/@普通10>
+<IMG:2:4549:353:57:0/@普通11>
+<IMG:2:4550:433:57:0/@普通12>
+ \ \ \ \
+普通生肖合成说明: \
+ 1. 665w金币合成一个普通生肖\ 
+ 2. 集齐普通生肖触发：攻魔道 5％\ 
+ 3. 点击图片即可进行合成　　　　　　　　　　　　　　　　　<下一页/@生肖合成2>
+[@生肖合成2]
+<IMG:2:4551:33:16:0:0/@精品01>
+<IMG:2:4552:113:16:0:0/@精品02>
+<IMG:2:4553:193:16:0:0/@精品03>
+<IMG:2:4554:273:16:0:0/@精品04>
+<IMG:2:4555:353:16:0:0/@精品05>
+<IMG:2:4556:433:16:0:0/@精品06>
+<IMG:2:4557:33:57:0:0/@精品07>
+<IMG:2:4558:113:57:0:0/@精品08>
+<IMG:2:4559:193:57:0:0/@精品09>
+<IMG:2:4560:273:57:0:0/@精品10>
+<IMG:2:4561:353:57:0:0/@精品11>
+<IMG:2:4562:433:57:0:0>
+    \ \ \ \
+    精品生肖合成说明: \
+        1. 3个普通生肖合成一个精品生肖\ 
+        2. 集齐精品生肖触发：攻魔道 10％\ 
+        3. 点击图片即可进行合成　　　　　　　　　　　　　　　　<下一页/@生肖合成3>
+[@生肖合成3]
+<IMG:2:4563:33:16:0/@完美01>
+<IMG:2:4564:113:16:0/@完美02>
+<IMG:2:4565:193:16:0/@完美03>
+<IMG:2:4566:273:16:0/@完美04>
+<IMG:2:4567:353:16:0/@完美05>
+<IMG:2:4568:433:16:0/@完美06>
+<IMG:2:4569:33:57:0/@完美07>
+<IMG:2:4570:113:57:0/@完美08>
+<IMG:2:4571:193:57:0/@完美09>
+<IMG:2:4572:273:57:0/@完美10>
+<IMG:2:4573:353:57:0/@完美11>
+<IMG:2:4574:433:57:0/@完美12>
+    \ \ \ \
+    完美生肖合成说明: \
+        1. 3个精品生肖合成一个完美生肖\ 
+        2. 集齐完美生肖触发：攻魔道 15％\ 
+        3. 点击图片即可进行合成　　　　　　　　　　　　　　　　<返回首页/@游戏助理>
+[@普通01]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 鼠 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖鼠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通02]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 牛 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖牛。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通03]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 虎 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖虎。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通04]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 兔 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖兔。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通05]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 龙 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖龙。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通06]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 蛇 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖蛇。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通07]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 马 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖马。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通08]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 羊 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖羊。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通09]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 猴 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖猴。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通10]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 鸡 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖鸡。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通11]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 狗 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖狗。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@普通12]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 猪 1
+SENDMSG 0 玩家『%s』合成了一个普通生肖猪。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@精品01]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 鼠 3
+#ACT
+take 鼠 3
+give 鼠(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖鼠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖鼠
+[@精品02]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 牛 3
+#ACT
+take 牛 3
+give 牛(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖牛。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖牛
+[@精品03]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 虎 3
+#ACT
+take 虎 3
+give 虎(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖虎。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖虎
+[@精品04]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 兔 3
+#ACT
+take 兔 3
+give 兔(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖兔。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖兔
+[@精品05]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 龙 3
+#ACT
+take 龙 3
+give 龙(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖龙。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖龙
+[@精品06]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 蛇 3
+#ACT
+take 蛇 3
+give 蛇(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖蛇。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖蛇
+[@精品07]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 马 3
+#ACT
+take 马 3
+give 马(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖马。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖马
+[@精品08]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 羊 3
+#ACT
+take 羊 3
+give 羊(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖羊。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖羊
+[@精品09]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 猴 3
+#ACT
+take 猴 3
+give 猴(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖猴。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖猴
+[@精品10]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 鸡 3
+#ACT
+take 鸡 3
+give 鸡(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖鸡。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖鸡
+[@精品11]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 狗 3
+#ACT
+take 狗 3
+give 狗(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖狗。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖狗
+[@精品12]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 猪 3
+#ACT
+take 猪 3
+give 猪(精品) 1
+SENDMSG 0 玩家『%s』合成了一个精品生肖猪。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通生肖猪
+[@完美01]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 鼠(精品) 3
+#ACT
+take 鼠(精品) 3
+give 鼠(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖鼠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖鼠
+[@完美02]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 牛(精品) 3
+#ACT
+take 牛(精品) 3
+give 牛(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖牛。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖牛
+[@完美03]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 虎(精品) 3
+#ACT
+take 虎(精品) 3
+give 虎(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖虎。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖虎
+[@完美04]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 兔(精品) 3
+#ACT
+take 兔(精品) 3
+give 兔(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖兔。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖兔
+[@完美05]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 龙(精品) 3
+#ACT
+take 龙(精品) 3
+give 龙(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖龙。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖龙
+[@完美06]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 蛇(精品) 3
+#ACT
+take 蛇(精品) 3
+give 蛇(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖蛇。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖蛇
+[@完美07]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 马(精品) 3
+#ACT
+take 马(精品) 3
+give 马(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖马。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖马
+[@完美08]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 羊(精品) 3
+#ACT
+take 羊(精品) 3
+give 羊(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖羊。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖羊
+[@完美09]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 猴(精品) 3
+#ACT
+take 猴(精品) 3
+give 猴(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖猴。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖猴
+[@完美10]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 鸡(精品) 3
+#ACT
+take 鸡(精品) 3
+give 鸡(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖鸡。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖鸡
+[@完美11]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 狗(精品) 3
+#ACT
+take 狗(精品) 3
+give 狗(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖狗。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖狗
+[@完美12]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 猪(精品) 3
+#ACT
+take 猪(精品) 3
+give 猪(完美) 1
+SENDMSG 0 玩家『%s』合成了一个完美生肖猪。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的精品生肖猪
+}
