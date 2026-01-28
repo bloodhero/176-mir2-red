@@ -1,0 +1,85 @@
+[@斗笠合成]
+{
+<IMG:2:1188:15:25:0/@普通斗笠>
+<IMG:2:1587:87:25:0/@青铜斗笠>
+<IMG:2:2081:159:25:0/@白银斗笠>
+<IMG:2:2080:231:25:0/@黄金斗笠>
+<IMG:2:2422:303:25:0/@铂金斗笠>
+<IMG:2:2522:375:25:0/@至尊斗笠>
+<IMG:2:2768:447:25:0/@王者斗笠>
+\ \ \
+斗笠合成说明: \
+    1. 200w金币合成一个普通斗笠\ 
+    2. 3个低级斗笠合成一个高级斗笠\ 
+    3. 点击图片即可进行合成　　　　　　　　　　　　　　　　<返回首页/@游戏助理>
+[@普通斗笠]
+#IF
+CHECKBAGSIZE 1
+checkgold 2000000
+#ACT
+take 金币 2000000
+give 普通斗笠 1
+SENDMSG 0 玩家『%s』合成了一个普通斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的钱
+[@青铜斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 普通斗笠 3
+#ACT
+take 普通斗笠 3
+give 青铜斗笠 1
+SENDMSG 0 玩家『%s』合成了一个青铜斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的普通斗笠
+[@白银斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 青铜斗笠 3
+#ACT
+take 青铜斗笠 3
+give 白银斗笠 1
+SENDMSG 0 玩家『%s』合成了一个白银斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的青铜斗笠
+[@黄金斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 白银斗笠 3
+#ACT
+take 白银斗笠 3
+give 黄金斗笠 1
+SENDMSG 0 玩家『%s』合成了一个黄金斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的白银斗笠
+[@铂金斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 黄金斗笠 3
+#ACT
+take 黄金斗笠 3
+give 铂金斗笠 1
+SENDMSG 0 玩家『%s』合成了一个铂金斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的黄金斗笠
+[@至尊斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 铂金斗笠 3
+#ACT
+take 铂金斗笠 3
+give 至尊斗笠 1
+SENDMSG 0 玩家『%s』合成了一个至尊斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的铂金斗笠
+[@王者斗笠]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 至尊斗笠 3
+#ACT
+take 至尊斗笠 3
+give 王者斗笠 1
+SENDMSG 0 玩家『%s』合成了一个王者斗笠。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的至尊斗笠
+}
