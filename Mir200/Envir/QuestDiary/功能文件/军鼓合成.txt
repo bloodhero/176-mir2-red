@@ -1,0 +1,41 @@
+[@军鼓合成]
+{
+<IMG:2:3472:35:35:0/@一级军鼓>
+<IMG:2:3473:126:35:0/@二级军鼓>
+<IMG:2:3474:217:35:0/@三级军鼓>
+\ \ \ \
+合成说明：\
+1. 665w金币可合成一个一级军鼓\
+2. 3个低级军鼓合成一个高级军鼓\
+3. 点击图片即可完进行合成　　　　　　　　　　　　　　　　<返回首页/@游戏助理>
+[@一级军鼓]
+#IF
+CHECKBAGSIZE 1
+checkgold 6650000
+#ACT
+take 金币 6650000
+give 一级军鼓 1
+SENDMSG 0 玩家『%s』合成了一个一级军鼓。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有66650000金币
+[@二级军鼓]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 一级军鼓 3
+#ACT
+take 一级军鼓 3
+give 二级军鼓 1
+SENDMSG 0 玩家『%s』合成了一个二级军鼓。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的一级军鼓
+[@三级军鼓]
+#IF
+CHECKBAGSIZE 1
+CHECKITEM 二级军鼓 3
+#ACT
+take 二级军鼓 3
+give 三级军鼓 1
+SENDMSG 0 玩家『%s』合成了一个三级军鼓。
+#ELSEACT
+SENDMSG 6 你的包里东西已经满了，或者你没有足够的二级军鼓
+}
