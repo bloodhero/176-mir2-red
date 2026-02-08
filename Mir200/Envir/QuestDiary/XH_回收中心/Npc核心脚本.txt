@@ -1,371 +1,925 @@
 [@XH_HSJB]
 {
 #If
-CheckVAR HUMAN 20级系列装备 > 0
+CheckVAR HUMAN 10级装备 > 0
 #Act
-Mov S$20级系列装备 <Img:6:491:35:42:0/@设置20级系列装备>
+Mov S$10级装备 <Img:6:491:20:48:0/@设置10级装备>
 #ElseAct
-Mov S$20级系列装备 <Img:6:490:35:42:0/@设置20级系列装备>
+Mov S$10级装备 <Img:6:490:20:48:0/@设置10级装备>
 #If
-CheckVAR HUMAN 沃玛系列首饰 > 0
+CheckVAR HUMAN 20级装备 > 0
 #Act
-Mov S$沃玛系列首饰 <Img:6:491:192:42:0/@设置沃玛系列首饰>
+Mov S$20级装备 <Img:6:491:20:65:0/@设置20级装备>
 #ElseAct
-Mov S$沃玛系列首饰 <Img:6:490:192:42:0/@设置沃玛系列首饰>
+Mov S$20级装备 <Img:6:490:20:65:0/@设置20级装备>
 #If
-CheckVAR HUMAN 沃玛系列剑甲 > 0
+CheckVAR HUMAN 30级装备 > 0
 #Act
-Mov S$沃玛系列剑甲 <Img:6:491:35:62:0/@设置沃玛系列剑甲>
+Mov S$30级装备 <Img:6:491:20:82:0/@设置30级装备>
 #ElseAct
-Mov S$沃玛系列剑甲 <Img:6:490:35:62:0/@设置沃玛系列剑甲>
+Mov S$30级装备 <Img:6:490:20:82:0/@设置30级装备>
 #If
-CheckVAR HUMAN 祖玛系列首饰 > 0
+CheckVAR HUMAN 沃玛首饰 > 0
 #Act
-Mov S$祖玛系列首饰 <Img:6:491:192:62:0/@设置祖玛系列首饰>
+Mov S$沃玛首饰 <Img:6:491:20:99:0/@设置沃玛首饰>
 #ElseAct
-Mov S$祖玛系列首饰 <Img:6:490:192:62:0/@设置祖玛系列首饰>
+Mov S$沃玛首饰 <Img:6:490:20:99:0/@设置沃玛首饰>
 #If
-CheckVAR HUMAN 祖玛系列剑甲 > 0
+CheckVAR HUMAN 沃玛剑甲 > 0
 #Act
-Mov S$祖玛系列剑甲 <Img:6:491:35:82:0/@设置祖玛系列剑甲>
+Mov S$沃玛剑甲 <Img:6:491:20:116:0/@设置沃玛剑甲>
 #ElseAct
-Mov S$祖玛系列剑甲 <Img:6:490:35:82:0/@设置祖玛系列剑甲>
+Mov S$沃玛剑甲 <Img:6:490:20:116:0/@设置沃玛剑甲>
 #If
-CheckVAR HUMAN 赤月系列首饰 > 0
+CheckVAR HUMAN 祖玛首饰 > 0
 #Act
-Mov S$赤月系列首饰 <Img:6:491:192:82:0/@设置赤月系列首饰>
+Mov S$祖玛首饰 <Img:6:491:156:48:0/@设置祖玛首饰>
 #ElseAct
-Mov S$赤月系列首饰 <Img:6:490:192:82:0/@设置赤月系列首饰>
+Mov S$祖玛首饰 <Img:6:490:156:48:0/@设置祖玛首饰>
 #If
-CheckVAR HUMAN 赤月系列剑甲 > 0
+CheckVAR HUMAN 祖玛剑甲 > 0
 #Act
-Mov S$赤月系列剑甲 <Img:6:491:35:102:0/@设置赤月系列剑甲>
+Mov S$祖玛剑甲 <Img:6:491:156:65:0/@设置祖玛剑甲>
 #ElseAct
-Mov S$赤月系列剑甲 <Img:6:490:35:102:0/@设置赤月系列剑甲>
+Mov S$祖玛剑甲 <Img:6:490:156:65:0/@设置祖玛剑甲>
 #If
-CheckVAR HUMAN 各种套装系列 > 0
+CheckVAR HUMAN 赤月首饰 > 0
 #Act
-Mov S$各种套装系列 <Img:6:491:192:102:0/@设置各种套装系列>
+Mov S$赤月首饰 <Img:6:491:156:82:0/@设置赤月首饰>
 #ElseAct
-Mov S$各种套装系列 <Img:6:490:192:102:0/@设置各种套装系列>
+Mov S$赤月首饰 <Img:6:490:156:82:0/@设置赤月首饰>
 #If
-CheckVAR HUMAN 特殊戒指系列 > 0
+CheckVAR HUMAN 赤月剑甲 > 0
 #Act
-Mov S$特殊戒指系列 <Img:6:491:35:122:0/@设置特殊戒指系列>
+Mov S$赤月剑甲 <Img:6:491:156:99:0/@设置赤月剑甲>
 #ElseAct
-Mov S$特殊戒指系列 <Img:6:490:35:122:0/@设置特殊戒指系列>
+Mov S$赤月剑甲 <Img:6:490:156:99:0/@设置赤月剑甲>
 #If
-CheckVAR HUMAN 终极装备系列 > 0
+CheckVAR HUMAN 终极装备 > 0
 #Act
-Mov S$终极装备系列 <Img:6:491:192:122:0/@设置终极装备系列>
+Mov S$终极装备 <Img:6:491:156:116:0/@设置终极装备>
 #ElseAct
-Mov S$终极装备系列 <Img:6:490:192:122:0/@设置终极装备系列>
+Mov S$终极装备 <Img:6:490:156:116:0/@设置终极装备>
+#If
+CheckVAR HUMAN 另类首饰 > 0
+#Act
+Mov S$另类首饰 <Img:6:491:292:48:0/@设置另类首饰>
+#ElseAct
+Mov S$另类首饰 <Img:6:490:292:48:0/@设置另类首饰>
+#If
+CheckVAR HUMAN 套装首饰 > 0
+#Act
+Mov S$套装首饰 <Img:6:491:292:65:0/@设置套装首饰>
+#ElseAct
+Mov S$套装首饰 <Img:6:490:292:65:0/@设置套装首饰>
+#If
+CheckVAR HUMAN 特殊戒指 > 0
+#Act
+Mov S$特殊戒指 <Img:6:491:292:82:0/@设置特殊戒指>
+#ElseAct
+Mov S$特殊戒指 <Img:6:490:292:82:0/@设置特殊戒指>
+#If
+CheckVAR HUMAN 荣誉勋章 > 0
+#Act
+Mov S$荣誉勋章 <Img:6:491:292:99:0/@设置荣誉勋章>
+#ElseAct
+Mov S$荣誉勋章 <Img:6:490:292:99:0/@设置荣誉勋章>
+#If
+CheckVAR HUMAN 技能书籍 > 0
+#Act
+Mov S$技能书籍 <Img:6:491:292:116:0/@设置技能书籍>
+#ElseAct
+Mov S$技能书籍 <Img:6:490:292:116:0/@设置技能书籍>
+#If
+CheckVAR HUMAN 高级书籍 > 0
+#Act
+Mov S$高级书籍 <Img:6:491:365:116:0/@设置高级书籍>
+#ElseAct
+Mov S$高级书籍 <Img:6:490:365:116:0/@设置高级书籍>
+#If
+CheckVAR HUMAN 10级装备极品 = 0
+#Act
+Mov S$10级装备极品 <Img:6:491:93:48:0/@设置10级装备极品>
+#ElseAct
+Mov S$10级装备极品 <Img:6:490:93:48:0/@设置10级装备极品>
+#If
+CheckVAR HUMAN 20级装备极品 = 0
+#Act
+Mov S$20级装备极品 <Img:6:491:93:65:0/@设置20级装备极品>
+#ElseAct
+Mov S$20级装备极品 <Img:6:490:93:65:0/@设置20级装备极品>
+#If
+CheckVAR HUMAN 30级装备极品 = 0
+#Act
+Mov S$30级装备极品 <Img:6:491:93:82:0/@设置30级装备极品>
+#ElseAct
+Mov S$30级装备极品 <Img:6:490:93:82:0/@设置30级装备极品>
+#If
+CheckVAR HUMAN 沃玛首饰极品 = 0
+#Act
+Mov S$沃玛首饰极品 <Img:6:491:93:99:0/@设置沃玛首饰极品>
+#ElseAct
+Mov S$沃玛首饰极品 <Img:6:490:93:99:0/@设置沃玛首饰极品>
+#If
+CheckVAR HUMAN 沃玛剑甲极品 = 0
+#Act
+Mov S$沃玛剑甲极品 <Img:6:491:93:116:0/@设置沃玛剑甲极品>
+#ElseAct
+Mov S$沃玛剑甲极品 <Img:6:490:93:116:0/@设置沃玛剑甲极品>
+#If
+CheckVAR HUMAN 祖玛首饰极品 = 0
+#Act
+Mov S$祖玛首饰极品 <Img:6:491:229:48:0/@设置祖玛首饰极品>
+#ElseAct
+Mov S$祖玛首饰极品 <Img:6:490:229:48:0/@设置祖玛首饰极品>
+#If
+CheckVAR HUMAN 祖玛剑甲极品 = 0
+#Act
+Mov S$祖玛剑甲极品 <Img:6:491:229:65:0/@设置祖玛剑甲极品>
+#ElseAct
+Mov S$祖玛剑甲极品 <Img:6:490:229:65:0/@设置祖玛剑甲极品>
+#If
+CheckVAR HUMAN 赤月首饰极品 = 0
+#Act
+Mov S$赤月首饰极品 <Img:6:491:229:82:0/@设置赤月首饰极品>
+#ElseAct
+Mov S$赤月首饰极品 <Img:6:490:229:82:0/@设置赤月首饰极品>
+#If
+CheckVAR HUMAN 赤月剑甲极品 = 0
+#Act
+Mov S$赤月剑甲极品 <Img:6:491:229:99:0/@设置赤月剑甲极品>
+#ElseAct
+Mov S$赤月剑甲极品 <Img:6:490:229:99:0/@设置赤月剑甲极品>
+#If
+CheckVAR HUMAN 终极装备极品 = 0
+#Act
+Mov S$终极装备极品 <Img:6:491:229:116:0/@设置终极装备极品>
+#ElseAct
+Mov S$终极装备极品 <Img:6:490:229:116:0/@设置终极装备极品>
+#If
+CheckVAR HUMAN 另类首饰极品 = 0
+#Act
+Mov S$另类首饰极品 <Img:6:491:365:48:0/@设置另类首饰极品>
+#ElseAct
+Mov S$另类首饰极品 <Img:6:490:365:48:0/@设置另类首饰极品>
+#If
+CheckVAR HUMAN 套装首饰极品 = 0
+#Act
+Mov S$套装首饰极品 <Img:6:491:365:65:0/@设置套装首饰极品>
+#ElseAct
+Mov S$套装首饰极品 <Img:6:490:365:65:0/@设置套装首饰极品>
+#If
+CheckVAR HUMAN 特殊戒指极品 = 0
+#Act
+Mov S$特殊戒指极品 <Img:6:491:365:82:0/@设置特殊戒指极品>
+#ElseAct
+Mov S$特殊戒指极品 <Img:6:490:365:82:0/@设置特殊戒指极品>
+#If
+CheckVAR HUMAN 荣誉勋章极品 = 0
+#Act
+Mov S$荣誉勋章极品 <Img:6:491:365:99:0/@设置荣誉勋章极品>
+#ElseAct
+Mov S$荣誉勋章极品 <Img:6:490:365:99:0/@设置荣誉勋章极品>
 #If
 CheckVAR HUMAN 自动回收设置 > 0
 #Act
-Mov S$自动回收 <Img:6:491:262:162:0/@自动回收>
+Mov S$自动回收设置 <Img:6:491:229:148:0/@设置自动回收>
 #ElseAct
-Mov S$自动回收 <Img:6:490:262:162:0/@自动回收>
+Mov S$自动回收设置 <Img:6:490:229:148:0/@设置自动回收>
 #If
 #Say
-<$Str(S$20级系列装备)>
-<$Str(S$沃玛系列首饰)>
-<$Str(S$沃玛系列剑甲)>
-<$Str(S$祖玛系列首饰)>
-<$Str(S$祖玛系列剑甲)>
-<$Str(S$赤月系列首饰)>
-<$Str(S$赤月系列剑甲)>
-<$Str(S$各种套装系列)>
-<$Str(S$特殊戒指系列)>
-<$Str(S$终极装备系列)>
-<$Str(S$自动回收)>
-请选择要回收的装备：\
-　　<20级系列装备/@设置20级系列装备>　　　　　<沃玛系列首饰/@设置沃玛系列首饰>\
-　　<沃玛系列剑甲/@设置沃玛系列剑甲>　　　　　<祖玛系列首饰/@设置祖玛系列首饰>\
-　　<祖玛系列剑甲/@设置祖玛系列剑甲>　　　　　<赤月系列首饰/@设置赤月系列首饰>\
-　　<赤月系列剑甲/@设置赤月系列剑甲>　　　　　<各种套装系列/@设置各种套装系列>\
-　　<特殊戒指系列/@设置特殊戒指系列>　　　　　<终极装备系列/@设置终极装备系列>\ \
-　<一键回收/@一键回收>　　<全选/@全选>　　<取消全选/@取消>　　　<自动回收/@自动回收>\
+<$Str(S$10级装备)>
+<$Str(S$20级装备)>
+<$Str(S$30级装备)>
+<$Str(S$沃玛首饰)>
+<$Str(S$沃玛剑甲)>
+<$Str(S$祖玛首饰)>
+<$Str(S$祖玛剑甲)>
+<$Str(S$赤月首饰)>
+<$Str(S$赤月剑甲)>
+<$Str(S$终极装备)>
+<$Str(S$另类首饰)>
+<$Str(S$套装首饰)>
+<$Str(S$特殊戒指)>
+<$Str(S$荣誉勋章)>
+<$Str(S$技能书籍)>
+<$Str(S$高级书籍)>
+<$Str(S$10级装备极品)>
+<$Str(S$20级装备极品)>
+<$Str(S$30级装备极品)>
+<$Str(S$沃玛首饰极品)>
+<$Str(S$沃玛剑甲极品)>
+<$Str(S$祖玛首饰极品)>
+<$Str(S$祖玛剑甲极品)>
+<$Str(S$赤月首饰极品)>
+<$Str(S$赤月剑甲极品)>
+<$Str(S$终极装备极品)>
+<$Str(S$另类首饰极品)>
+<$Str(S$套装首饰极品)>
+<$Str(S$特殊戒指极品)>
+<$Str(S$荣誉勋章极品)>
+<$Str(S$自动回收设置)>
+<TEXT:请选择要回收的装备：:18:18{FCOLOR=255}>
+<TEXT:10级装备:31:47{FCOLOR=254}/@设置10级装备>
+<TEXT:20级装备:31:64{FCOLOR=254}/@设置20级装备>
+<TEXT:30级装备:31:81{FCOLOR=254}/@设置30级装备>
+<TEXT:沃玛首饰:31:98{FCOLOR=254}/@设置沃玛首饰>
+<TEXT:沃玛剑甲:31:115{FCOLOR=254}/@设置沃玛剑甲>
+<TEXT:极品:104:47{FCOLOR=250}/@设置10级装备极品>
+<TEXT:极品:104:64{FCOLOR=250}/@设置20级装备极品>
+<TEXT:极品:104:81{FCOLOR=250}/@设置30级装备极品>
+<TEXT:极品:104:98{FCOLOR=250}/@设置沃玛首饰极品>
+<TEXT:极品:104:115{FCOLOR=250}/@设置沃玛剑甲极品>
+<TEXT:祖玛首饰:167:47{FCOLOR=254}/@设置祖玛首饰>
+<TEXT:祖玛剑甲:167:64{FCOLOR=254}/@设置祖玛剑甲>
+<TEXT:赤月首饰:167:81{FCOLOR=254}/@设置赤月首饰>
+<TEXT:赤月剑甲:167:98{FCOLOR=254}/@设置赤月剑甲>
+<TEXT:终极装备:167:115{FCOLOR=254}/@设置终极装备>
+<TEXT:极品:240:47{FCOLOR=250}/@设置祖玛首饰极品>
+<TEXT:极品:240:64{FCOLOR=250}/@设置祖玛剑甲极品>
+<TEXT:极品:240:81{FCOLOR=250}/@设置赤月首饰极品>
+<TEXT:极品:240:98{FCOLOR=250}/@设置赤月剑甲极品>
+<TEXT:极品:240:115{FCOLOR=250}/@设置终极装备极品>
+<TEXT:另类首饰:303:47{FCOLOR=254}/@设置另类首饰>
+<TEXT:套装首饰:303:64{FCOLOR=254}/@设置套装首饰>
+<TEXT:特殊戒指:303:81{FCOLOR=254}/@设置特殊戒指>
+<TEXT:荣誉勋章:303:98{FCOLOR=254}/@设置荣誉勋章>
+<TEXT:技能书籍:303:115{FCOLOR=254}/@设置技能书籍>
+<TEXT:极品:376:47{FCOLOR=250}/@设置另类首饰极品>
+<TEXT:极品:376:64{FCOLOR=250}/@设置套装首饰极品>
+<TEXT:极品:376:81{FCOLOR=250}/@设置特殊戒指极品>
+<TEXT:极品:376:98{FCOLOR=250}/@设置荣誉勋章极品>
+<TEXT:高级:376:115{FCOLOR=250}/@设置高级书籍>
+<TEXT:一键回收:31:147{FCOLOR=150}/@一键回收>
+<TEXT:全选:104:147{FCOLOR=150}/@全选>
+<TEXT:取消全选:167:147{FCOLOR=150}/@取消全选>
+<TEXT:自动回收:240:147{FCOLOR=150}/@设置自动回收>
+
 [@一键回收]
 #if
-CheckVAR HUMAN 20级系列装备 > 0
+CheckVAR HUMAN 10级装备 > 0
 #Act
-TakeBagItem 木剑|匕首|青铜剑|乌木剑|铁剑|短剑|鹤嘴锄|青铜斧|八荒|半月|海魂|罗刹|凌风|破魂|斩马刀|偃月|降魔|修罗|凝霜|炼狱|魔杖|银蛇|命运之刃|布衣(男)|布衣(女)|轻型盔甲(男)|轻型盔甲(女)|中型盔甲(男)|中型盔甲(女)|青铜头盔|骷髅头盔|魔法头盔|道士头盔|祈福项链|金项链|传统项链|白金项链|白色虎齿项链|躲避手链|黑檀项链|黄色水晶项链|黑色水晶项链|魔鬼项链|琥珀项链|凤凰明珠|灯笼项链|蓝翡翠项链|竹笛|放大镜|铁手镯|小手镯|银手镯|皮制手套|钢手镯|大手镯|夏普儿手镯|坚固手套|魔法手镯|道士手镯|黑檀手镯|避邪手镯|魔力手镯|死神手套|金手镯|古铜戒指|六角戒指|玻璃戒指|牛角戒指|生铁戒指|火焰戒指|防御戒指|蓝色水晶戒指|黑色水晶戒指|蛇眼戒指|珍珠戒指|金戒指|魅力戒指|道德戒指|降妖除魔戒指|珊瑚戒指|骷髅戒指|精灵头盔|神秘头盔|神秘戒指|神秘腰带|黑铁头盔|阎罗手套| 46 0 2000 0 0 N$数量 0 1
+TakeBagItem 木剑|匕首|青铜剑|乌木剑|铁剑|短剑|布衣(男)|布衣(女)|轻型盔甲(男)|轻型盔甲(女)|青铜头盔|金项链|传统项链|白金项链|躲避手链|小手镯|皮制手套|钢手镯|大手镯|古铜戒指|六角戒指|玻璃戒指|牛角戒指|生铁戒指|祈福项链|精灵头盔| 46 0 2000 0 0 N$数量 0 <$HUMAN(10级装备极品)>
 Mov N$金币 2000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 20级系列装备 >  0
+CheckVAR HUMAN 10级装备 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【20级系列装备】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【10级装备】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 沃玛系列首饰 > 0
+CheckVAR HUMAN 20级装备 > 0
 #Act
-TakeBagItem 幽灵项链|幽灵手套|龙之戒指|生命项链|思贝儿手镯|红宝石戒指|天珠项链|心灵手镯|铂金戒指| 46 0 5000 0 0 N$数量 0 0
+TakeBagItem 中型盔甲(男)|中型盔甲(女)|骷髅头盔|魔法头盔|黑檀项链|黄色水晶项链|黑色水晶项链|魔鬼项链|琥珀项链|凤凰明珠|坚固手套|魔法手镯|道士手镯|黑檀手镯|魔力手镯|蓝色水晶戒指|黑色水晶戒指|蛇眼戒指|珍珠戒指|神秘头盔|神秘戒指|神秘腰带|鹤嘴锄|青铜斧|八荒|半月|海魂|罗刹|凌风|破魂|斩马刀|偃月|降魔|重盔甲(男)|重盔甲(女)|魔法长袍(男)|魔法长袍(女)|灵魂战衣(男)|灵魂战衣(女)|火焰戒指|防御戒指| 46 0 5000 0 0 N$数量 0 <$HUMAN(20级装备极品)>
 Mov N$金币 5000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 沃玛系列首饰 >  0
+CheckVAR HUMAN 20级装备 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛系列首饰】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【20级装备】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 沃玛系列剑甲 > 0
+CheckVAR HUMAN 30级装备 > 0
 #Act
-TakeBagItem 井中月|无极棍|血饮|重盔甲(男)|重盔甲(女)|魔法长袍(男)|魔法长袍(女)|灵魂战衣(男)|灵魂战衣(女)| 46 0 15000 0 0 N$数量 0 0
+TakeBagItem 修罗|凝霜|命运之刃|赤血魔剑|战神盔甲(男)|战神盔甲(女)|恶魔长袍(女)|恶魔长袍(男)|幽灵战衣(女)|幽灵战衣(男)|道士头盔|竹笛|放大镜|蓝翡翠项链|死神手套|金手镯|金戒指|降妖除魔戒指|珊瑚戒指|骷髅戒指| 46 0 10000 0 0 N$数量 0 <$HUMAN(30级装备极品)>
+Mov N$金币 10000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 30级装备 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【30级装备】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 沃玛首饰 > 0
+#Act
+TakeBagItem 幽灵项链|幽灵手套|龙之戒指|生命项链|思贝儿手镯|红宝石戒指|天珠项链|心灵手镯|铂金戒指| 46 0 15000 0 0 N$数量 0 <$HUMAN(沃玛首饰极品)>
 Mov N$金币 15000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 沃玛系列剑甲 >  0
+CheckVAR HUMAN 沃玛首饰 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛首饰】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 祖玛系列首饰 > 0
+CheckVAR HUMAN 沃玛剑甲 > 0
 #Act
-TakeBagItem 绿色项链|骑士手镯|力量戒指|恶魔铃铛|龙之手镯|紫碧螺|灵魂项链|三眼手镯|泰坦戒指| 46 0 20000 0 0 N$数量 0 0
+TakeBagItem 井中月|无极棍|血饮|炼狱|魔杖|银蛇| 46 0 20000 0 0 N$数量 0 <$HUMAN(沃玛剑甲极品)>
 Mov N$金币 20000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 祖玛系列首饰 >  0
+CheckVAR HUMAN 沃玛剑甲 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛系列首饰】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【沃玛剑甲】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 祖玛系列剑甲 > 0
+CheckVAR HUMAN 祖玛首饰 > 0
 #Act
-TakeBagItem 裁决之杖|骨玉权杖|龙纹剑|战神盔甲(男)|战神盔甲(女)|恶魔长袍(女)|恶魔长袍(男)|幽灵战衣(女)|幽灵战衣(男)| 46 0 30000 0 0 N$数量 0 0
+TakeBagItem 绿色项链|骑士手镯|力量戒指|恶魔铃铛|龙之手镯|紫碧螺|灵魂项链|三眼手镯|泰坦戒指|黑铁头盔|阎罗手套| 46 0 25000 0 0 N$数量 0 <$HUMAN(祖玛首饰极品)>
+Mov N$金币 25000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 祖玛首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛首饰】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 祖玛剑甲 > 0
+#Act
+TakeBagItem 裁决之杖|骨玉权杖|龙纹剑| 46 0 30000 0 0 N$数量 0 <$HUMAN(祖玛剑甲极品)>
 Mov N$金币 30000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 祖玛系列剑甲 >  0
+CheckVAR HUMAN 祖玛剑甲 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【祖玛剑甲】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 赤月系列首饰 > 0
+CheckVAR HUMAN 赤月首饰 > 0
 #Act
-TakeBagItem 天尊戒指|天尊手镯|天尊项链|天尊头盔|法神戒指|法神手镯|法神项链|法神头盔|圣战戒指|圣战手镯|圣战项链|圣战头盔| 46 0 50000 0 0 N$数量 0 0
+TakeBagItem 天尊戒指|天尊手镯|天尊项链|天尊头盔|法神戒指|法神手镯|法神项链|法神头盔|圣战戒指|圣战手镯|圣战项链|圣战头盔| 46 0 35000 0 0 N$数量 0 <$HUMAN(赤月首饰极品)>
+Mov N$金币 35000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 赤月首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月首饰】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 赤月剑甲 > 0
+#Act
+TakeBagItem 龙牙|怒斩|逍遥扇|天魔神甲|圣战宝甲|法神披风|霓裳羽衣|天尊道袍|天师长袍| 46 0 40000 0 0 N$数量 0 <$HUMAN(赤月剑甲极品)>
+Mov N$金币 40000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 赤月剑甲 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月剑甲】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 终极装备 > 0
+#Act
+TakeBagItem 屠龙|嗜魂法杖|霸者之刃| 46 0 50000 0 0 N$数量 0 <$HUMAN(终极装备极品)>
 Mov N$金币 50000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 赤月系列首饰 >  0
+CheckVAR HUMAN 终极装备 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月系列首饰】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【终极装备】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 赤月系列剑甲 > 0
+CheckVAR HUMAN 另类首饰 > 0
 #Act
-TakeBagItem 龙牙|怒斩|逍遥扇|天魔神甲|圣战宝甲|法神披风|霓裳羽衣|天尊道袍|天师长袍| 46 0 150000 0 0 N$数量 0 0
-Mov N$金币 150000
+TakeBagItem 白色虎齿项链|灯笼项链|铁手镯|银手镯|夏普儿手镯|避邪手镯|魅力戒指|道德戒指| 46 0 5000 0 0 N$数量 0 <$HUMAN(另类首饰极品)>
+Mov N$金币 5000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 赤月系列剑甲 >  0
+CheckVAR HUMAN 另类首饰 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【赤月系列剑甲】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【另类首饰】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 各种套装系列 > 0
+CheckVAR HUMAN 套装首饰 > 0
 #Act
-TakeBagItem 祈祷之刃|祈祷头盔|祈祷项链|祈祷手镯|祈祷戒指|狂风戒指|狂风项链|记忆头盔|记忆项链|记忆手镯|记忆戒指|魔血项链|魔血手镯|魔血戒指|虹魔项链|虹魔手镯|虹魔戒指| 46 0 30000 0 0 N$数量 0 0
+TakeBagItem 祈祷之刃|祈祷头盔|祈祷项链|祈祷手镯|祈祷戒指|狂风戒指|狂风项链|记忆头盔|记忆项链|记忆手镯|记忆戒指|魔血项链|魔血手镯|魔血戒指|虹魔项链|虹魔手镯|虹魔戒指| 46 0 20000 0 0 N$数量 0 <$HUMAN(套装首饰极品)>
+Mov N$金币 20000
+Mul N$金币 <$Str(N$数量)>
+#If
+Large N$数量 0
+CheckVAR HUMAN 套装首饰 >  0
+#Act
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【套装首饰】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 特殊戒指 > 0
+#Act
+TakeBagItem 求婚戒指|隐身戒指|传送戒指|麻痹戒指|复活戒指|护身戒指|超负载戒指|探测项链|技巧项链| 46 0 30000 0 0 N$数量 0 <$HUMAN(特殊戒指极品)>
 Mov N$金币 30000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 各种套装系列 >  0
+CheckVAR HUMAN 特殊戒指 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【各种套装系列】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【特殊戒指】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 特殊戒指系列 > 0
+CheckVAR HUMAN 荣誉勋章 > 0
 #Act
-TakeBagItem 探测项链|技巧项链|求婚戒指|隐身戒指|传送戒指|麻痹戒指|复活戒指|护身戒指|超负载戒指| 46 0 300000 0 0 N$数量 0 0
-Mov N$金币 300000
+TakeBagItem 荣誉勋章11号|荣誉勋章12号|荣誉勋章13号|荣誉勋章14号|荣誉勋章15号|荣誉勋章21号|荣誉勋章22号|荣誉勋章23号|荣誉勋章24号|荣誉勋章25号|荣誉勋章31号|荣誉勋章32号|荣誉勋章33号|荣誉勋章34号|荣誉勋章35号|荣誉勋章41号|荣誉勋章42号|荣誉勋章43号|荣誉勋章44号|荣誉勋章45号| 46 0 10000 0 0 N$数量 0 <$HUMAN(荣誉勋章极品)>
+Mov N$金币 10000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 特殊戒指系列 >  0
+CheckVAR HUMAN 荣誉勋章 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【特殊戒指系列】完成,获得:<$Str(N$金币)>+金币！
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【荣誉勋章】完成,获得:<$Str(N$金币)>+金币
 #if
-CheckVAR HUMAN 终极装备系列 > 0
+CheckVAR HUMAN 技能书籍 > 0
 #Act
-TakeBagItem 屠龙|嗜魂法杖|霸者之刃| 46 0 300000 0 0 N$数量 0 0
-Mov N$金币 300000
+TakeBagItem 基本剑术|攻杀剑术|刺杀剑术|火球术|抗拒火环|诱惑之光|地狱火|雷电术|瞬息移动|大火球|爆裂火焰|火墙|疾光电影|地狱雷光|治愈术|精神力战法|施毒术|灵魂火符|召唤骷髅|隐身术|集体隐身术|幽灵盾|神圣战甲术|心灵启示| 46 0 3000 0 0 N$数量 0 0
+Mov N$金币 3000
 Mul N$金币 <$Str(N$数量)>
 #If
 Large N$数量 0
-CheckVAR HUMAN 终极装备系列 >  0
+CheckVAR HUMAN 技能书籍 >  0
 #Act
-SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【终极装备系列】完成,获得:<$Str(N$金币)>+金币！
-[@设置20级系列装备]
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【技能书籍】完成,获得:<$Str(N$金币)>+金币
+#if
+CheckVAR HUMAN 高级书籍 > 0
+#Act
+TakeBagItem 半月弯刀|野蛮冲撞|烈火剑法|魔法盾|圣言术|冰咆哮|困魔咒|群体治疗术|召唤神兽| 46 0 5000 0 0 N$数量 0 0
+Mov N$金币 5000
+Mul N$金币 <$Str(N$数量)>
 #If
-CheckVAR HUMAN 20级系列装备 = 0
+Large N$数量 0
+CheckVAR HUMAN 高级书籍 >  0
 #Act
-CalcVAR HUMAN 20级系列装备 + 1
-SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+SendMsg 0 玩家[%s]回收【<$Str(N$数量)>】个【高级书籍】完成,获得:<$Str(N$金币)>+金币
+[@设置10级装备]
+#If
+CheckVAR HUMAN 10级装备 = 0
+#Act
+CalcVAR HUMAN 10级装备 + 1
+SaveVAR HUMAN 10级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 20级系列装备 = 0
-SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 10级装备 = 0
+SaveVAR HUMAN 10级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置沃玛系列首饰]
+[@设置20级装备]
 #If
-CheckVAR HUMAN 沃玛系列首饰 = 0
+CheckVAR HUMAN 20级装备 = 0
 #Act
-CalcVAR HUMAN 沃玛系列首饰 + 1
-SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备 + 1
+SaveVAR HUMAN 20级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 沃玛系列首饰 = 0
-SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备 = 0
+SaveVAR HUMAN 20级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置沃玛系列剑甲]
+[@设置30级装备]
 #If
-CheckVAR HUMAN 沃玛系列剑甲 = 0
+CheckVAR HUMAN 30级装备 = 0
 #Act
-CalcVAR HUMAN 沃玛系列剑甲 + 1
-SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备 + 1
+SaveVAR HUMAN 30级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 沃玛系列剑甲 = 0
-SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备 = 0
+SaveVAR HUMAN 30级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置祖玛系列首饰]
+[@设置沃玛首饰]
 #If
-CheckVAR HUMAN 祖玛系列首饰 = 0
+CheckVAR HUMAN 沃玛首饰 = 0
 #Act
-CalcVAR HUMAN 祖玛系列首饰 + 1
-SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰 + 1
+SaveVAR HUMAN 沃玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 祖玛系列首饰 = 0
-SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰 = 0
+SaveVAR HUMAN 沃玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置祖玛系列剑甲]
+[@设置沃玛剑甲]
 #If
-CheckVAR HUMAN 祖玛系列剑甲 = 0
+CheckVAR HUMAN 沃玛剑甲 = 0
 #Act
-CalcVAR HUMAN 祖玛系列剑甲 + 1
-SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲 + 1
+SaveVAR HUMAN 沃玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 祖玛系列剑甲 = 0
-SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲 = 0
+SaveVAR HUMAN 沃玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置赤月系列首饰]
+[@设置祖玛首饰]
 #If
-CheckVAR HUMAN 赤月系列首饰 = 0
+CheckVAR HUMAN 祖玛首饰 = 0
 #Act
-CalcVAR HUMAN 赤月系列首饰 + 1
-SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰 + 1
+SaveVAR HUMAN 祖玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 赤月系列首饰 = 0
-SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰 = 0
+SaveVAR HUMAN 祖玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置赤月系列剑甲]
+[@设置祖玛剑甲]
 #If
-CheckVAR HUMAN 赤月系列剑甲 = 0
+CheckVAR HUMAN 祖玛剑甲 = 0
 #Act
-CalcVAR HUMAN 赤月系列剑甲 + 1
-SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲 + 1
+SaveVAR HUMAN 祖玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 赤月系列剑甲 = 0
-SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲 = 0
+SaveVAR HUMAN 祖玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置各种套装系列]
+[@设置赤月首饰]
 #If
-CheckVAR HUMAN 各种套装系列 = 0
+CheckVAR HUMAN 赤月首饰 = 0
 #Act
-CalcVAR HUMAN 各种套装系列 + 1
-SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰 + 1
+SaveVAR HUMAN 赤月首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 各种套装系列 = 0
-SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰 = 0
+SaveVAR HUMAN 赤月首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置特殊戒指系列]
+[@设置赤月剑甲]
 #If
-CheckVAR HUMAN 特殊戒指系列 = 0
+CheckVAR HUMAN 赤月剑甲 = 0
 #Act
-CalcVAR HUMAN 特殊戒指系列 + 1
-SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲 + 1
+SaveVAR HUMAN 赤月剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 特殊戒指系列 = 0
-SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲 = 0
+SaveVAR HUMAN 赤月剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
-[@设置终极装备系列]
+[@设置终极装备]
 #If
-CheckVAR HUMAN 终极装备系列 = 0
+CheckVAR HUMAN 终极装备 = 0
 #Act
-CalcVAR HUMAN 终极装备系列 + 1
-SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备 + 1
+SaveVAR HUMAN 终极装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 #ElseAct
-CalcVAR HUMAN 终极装备系列 = 0
-SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备 = 0
+SaveVAR HUMAN 终极装备  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
 
+[@设置另类首饰]
+#If
+CheckVAR HUMAN 另类首饰 = 0
+#Act
+CalcVAR HUMAN 另类首饰 + 1
+SaveVAR HUMAN 另类首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 另类首饰 = 0
+SaveVAR HUMAN 另类首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置套装首饰]
+#If
+CheckVAR HUMAN 套装首饰 = 0
+#Act
+CalcVAR HUMAN 套装首饰 + 1
+SaveVAR HUMAN 套装首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 套装首饰 = 0
+SaveVAR HUMAN 套装首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置特殊戒指]
+#If
+CheckVAR HUMAN 特殊戒指 = 0
+#Act
+CalcVAR HUMAN 特殊戒指 + 1
+SaveVAR HUMAN 特殊戒指  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 特殊戒指 = 0
+SaveVAR HUMAN 特殊戒指  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置荣誉勋章]
+#If
+CheckVAR HUMAN 荣誉勋章 = 0
+#Act
+CalcVAR HUMAN 荣誉勋章 + 1
+SaveVAR HUMAN 荣誉勋章  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 荣誉勋章 = 0
+SaveVAR HUMAN 荣誉勋章  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置技能书籍]
+#If
+CheckVAR HUMAN 技能书籍 = 0
+#Act
+CalcVAR HUMAN 技能书籍 + 1
+SaveVAR HUMAN 技能书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 技能书籍 = 0
+SaveVAR HUMAN 技能书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置高级书籍]
+#If
+CheckVAR HUMAN 高级书籍 = 0
+#Act
+CalcVAR HUMAN 高级书籍 + 1
+SaveVAR HUMAN 高级书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 高级书籍 = 0
+SaveVAR HUMAN 高级书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置10级装备极品]
+#If
+CheckVAR HUMAN 10级装备极品 = 0
+#Act
+CalcVAR HUMAN 10级装备极品 + 1
+SaveVAR HUMAN 10级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 10级装备极品 = 0
+SaveVAR HUMAN 10级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置20级装备极品]
+#If
+CheckVAR HUMAN 20级装备极品 = 0
+#Act
+CalcVAR HUMAN 20级装备极品 + 1
+SaveVAR HUMAN 20级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 20级装备极品 = 0
+SaveVAR HUMAN 20级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置30级装备极品]
+#If
+CheckVAR HUMAN 30级装备极品 = 0
+#Act
+CalcVAR HUMAN 30级装备极品 + 1
+SaveVAR HUMAN 30级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 30级装备极品 = 0
+SaveVAR HUMAN 30级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置沃玛首饰极品]
+#If
+CheckVAR HUMAN 沃玛首饰极品 = 0
+#Act
+CalcVAR HUMAN 沃玛首饰极品 + 1
+SaveVAR HUMAN 沃玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 沃玛首饰极品 = 0
+SaveVAR HUMAN 沃玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置沃玛剑甲极品]
+#If
+CheckVAR HUMAN 沃玛剑甲极品 = 0
+#Act
+CalcVAR HUMAN 沃玛剑甲极品 + 1
+SaveVAR HUMAN 沃玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 沃玛剑甲极品 = 0
+SaveVAR HUMAN 沃玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置祖玛首饰极品]
+#If
+CheckVAR HUMAN 祖玛首饰极品 = 0
+#Act
+CalcVAR HUMAN 祖玛首饰极品 + 1
+SaveVAR HUMAN 祖玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 祖玛首饰极品 = 0
+SaveVAR HUMAN 祖玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置祖玛剑甲极品]
+#If
+CheckVAR HUMAN 祖玛剑甲极品 = 0
+#Act
+CalcVAR HUMAN 祖玛剑甲极品 + 1
+SaveVAR HUMAN 祖玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 祖玛剑甲极品 = 0
+SaveVAR HUMAN 祖玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置赤月首饰极品]
+#If
+CheckVAR HUMAN 赤月首饰极品 = 0
+#Act
+CalcVAR HUMAN 赤月首饰极品 + 1
+SaveVAR HUMAN 赤月首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 赤月首饰极品 = 0
+SaveVAR HUMAN 赤月首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置赤月剑甲极品]
+#If
+CheckVAR HUMAN 赤月剑甲极品 = 0
+#Act
+CalcVAR HUMAN 赤月剑甲极品 + 1
+SaveVAR HUMAN 赤月剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 赤月剑甲极品 = 0
+SaveVAR HUMAN 赤月剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置终极装备极品]
+#If
+CheckVAR HUMAN 终极装备极品 = 0
+#Act
+CalcVAR HUMAN 终极装备极品 + 1
+SaveVAR HUMAN 终极装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 终极装备极品 = 0
+SaveVAR HUMAN 终极装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置另类首饰极品]
+#If
+CheckVAR HUMAN 另类首饰极品 = 0
+#Act
+CalcVAR HUMAN 另类首饰极品 + 1
+SaveVAR HUMAN 另类首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 另类首饰极品 = 0
+SaveVAR HUMAN 另类首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置套装首饰极品]
+#If
+CheckVAR HUMAN 套装首饰极品 = 0
+#Act
+CalcVAR HUMAN 套装首饰极品 + 1
+SaveVAR HUMAN 套装首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 套装首饰极品 = 0
+SaveVAR HUMAN 套装首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置特殊戒指极品]
+#If
+CheckVAR HUMAN 特殊戒指极品 = 0
+#Act
+CalcVAR HUMAN 特殊戒指极品 + 1
+SaveVAR HUMAN 特殊戒指极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 特殊戒指极品 = 0
+SaveVAR HUMAN 特殊戒指极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+
+[@设置荣誉勋章极品]
+#If
+CheckVAR HUMAN 荣誉勋章极品 = 0
+#Act
+CalcVAR HUMAN 荣誉勋章极品 + 1
+SaveVAR HUMAN 荣誉勋章极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
+#ElseAct
+CalcVAR HUMAN 荣誉勋章极品 = 0
+SaveVAR HUMAN 荣誉勋章极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+Goto @XH_HSJB
 [@全选]
 #If
 #Act
-CalcVAR HUMAN 20级系列装备 = 1
-SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 沃玛系列首饰 = 1
-SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 沃玛系列剑甲 = 1
-SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 祖玛系列首饰 = 1
-SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 祖玛系列剑甲 = 1
-SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 赤月系列首饰 = 1
-SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 赤月系列剑甲 = 1
-SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 各种套装系列 = 1
-SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 特殊戒指系列 = 1
-SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 终极装备系列 = 1
-SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 10级装备 = 1
+SaveVAR HUMAN 10级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备 = 1
+SaveVAR HUMAN 20级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备 = 1
+SaveVAR HUMAN 30级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰 = 1
+SaveVAR HUMAN 沃玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲 = 1
+SaveVAR HUMAN 沃玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰 = 1
+SaveVAR HUMAN 祖玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲 = 1
+SaveVAR HUMAN 祖玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰 = 1
+SaveVAR HUMAN 赤月首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲 = 1
+SaveVAR HUMAN 赤月剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备 = 1
+SaveVAR HUMAN 终极装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 另类首饰 = 1
+SaveVAR HUMAN 另类首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 套装首饰 = 1
+SaveVAR HUMAN 套装首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指 = 1
+SaveVAR HUMAN 特殊戒指  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 荣誉勋章 = 1
+SaveVAR HUMAN 荣誉勋章  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 技能书籍 = 1
+SaveVAR HUMAN 技能书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 高级书籍 = 1
+SaveVAR HUMAN 高级书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 10级装备极品 = 0
+SaveVAR HUMAN 10级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备极品 = 0
+SaveVAR HUMAN 20级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备极品 = 0
+SaveVAR HUMAN 30级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰极品 = 0
+SaveVAR HUMAN 沃玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲极品 = 0
+SaveVAR HUMAN 沃玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰极品 = 0
+SaveVAR HUMAN 祖玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲极品 = 0
+SaveVAR HUMAN 祖玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰极品 = 0
+SaveVAR HUMAN 赤月首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲极品 = 0
+SaveVAR HUMAN 赤月剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备极品 = 0
+SaveVAR HUMAN 终极装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 另类首饰极品 = 0
+SaveVAR HUMAN 另类首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 套装首饰极品 = 0
+SaveVAR HUMAN 套装首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指极品 = 0
+SaveVAR HUMAN 特殊戒指极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 荣誉勋章极品 = 0
+SaveVAR HUMAN 荣誉勋章极品  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
-[@取消]
+[@取消全选]
 #If
 #Act
-CalcVAR HUMAN 20级系列装备 = 0
-SaveVAR HUMAN 20级系列装备  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 沃玛系列首饰 = 0
-SaveVAR HUMAN 沃玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 沃玛系列剑甲 = 0
-SaveVAR HUMAN 沃玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 祖玛系列首饰 = 0
-SaveVAR HUMAN 祖玛系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 祖玛系列剑甲 = 0
-SaveVAR HUMAN 祖玛系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 赤月系列首饰 = 0
-SaveVAR HUMAN 赤月系列首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 赤月系列剑甲 = 0
-SaveVAR HUMAN 赤月系列剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 各种套装系列 = 0
-SaveVAR HUMAN 各种套装系列  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 特殊戒指系列 = 0
-SaveVAR HUMAN 特殊戒指系列  ..\QuestDiary\XH_回收中心\回收配置.txt
-CalcVAR HUMAN 终极装备系列 = 0
-SaveVAR HUMAN 终极装备系列  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 10级装备 = 0
+SaveVAR HUMAN 10级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备 = 0
+SaveVAR HUMAN 20级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备 = 0
+SaveVAR HUMAN 30级装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰 = 0
+SaveVAR HUMAN 沃玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲 = 0
+SaveVAR HUMAN 沃玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰 = 0
+SaveVAR HUMAN 祖玛首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲 = 0
+SaveVAR HUMAN 祖玛剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰 = 0
+SaveVAR HUMAN 赤月首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲 = 0
+SaveVAR HUMAN 赤月剑甲  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备 = 0
+SaveVAR HUMAN 终极装备  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 另类首饰 = 0
+SaveVAR HUMAN 另类首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 套装首饰 = 0
+SaveVAR HUMAN 套装首饰  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指 = 0
+SaveVAR HUMAN 特殊戒指  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 荣誉勋章 = 0
+SaveVAR HUMAN 荣誉勋章  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 技能书籍 = 0
+SaveVAR HUMAN 技能书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 高级书籍 = 0
+SaveVAR HUMAN 高级书籍  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 10级装备极品 = 1
+SaveVAR HUMAN 10级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 20级装备极品 = 1
+SaveVAR HUMAN 20级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 30级装备极品 = 1
+SaveVAR HUMAN 30级装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛首饰极品 = 1
+SaveVAR HUMAN 沃玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 沃玛剑甲极品 = 1
+SaveVAR HUMAN 沃玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛首饰极品 = 1
+SaveVAR HUMAN 祖玛首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 祖玛剑甲极品 = 1
+SaveVAR HUMAN 祖玛剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月首饰极品 = 1
+SaveVAR HUMAN 赤月首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 赤月剑甲极品 = 1
+SaveVAR HUMAN 赤月剑甲极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 终极装备极品 = 1
+SaveVAR HUMAN 终极装备极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 另类首饰极品 = 1
+SaveVAR HUMAN 另类首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 套装首饰极品 = 1
+SaveVAR HUMAN 套装首饰极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 特殊戒指极品 = 1
+SaveVAR HUMAN 特殊戒指极品  ..\QuestDiary\XH_回收中心\回收配置.txt
+CalcVAR HUMAN 荣誉勋章极品 = 1
+SaveVAR HUMAN 荣誉勋章极品  ..\QuestDiary\XH_回收中心\回收配置.txt
 Goto @XH_HSJB
-[@自动回收]
+[@设置自动回收]
 #If
 CheckVAR HUMAN 自动回收设置 = 0
 #Act
